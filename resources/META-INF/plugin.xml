@@ -6,11 +6,11 @@
 
     <!-- Public plugin name should be written in Title Case.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
-    <name>Aaxyat-theme</name>
+    <name>aaxyat-theme</name>
     <category>UI</category>
 
     <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
-    <vendor email="support@yourcompany.com" url="https://www.yourcompany.com">YourCompany</vendor>
+    <vendor email="mail@ayushb.com" url="https://www.ayushb.com">Ayush Bhattarai</vendor>
 
     <idea-version since-build="232" until-build="242.*"/>
 
@@ -18,19 +18,42 @@
          Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
     <description><![CDATA[
-    Enter short description for your theme here.<br>
-    <em>most HTML tags may be used</em>
-  ]]></description>
+        <h2>Aaxyat Theme - A Beautiful Andromeda Implementation</h2>
+        <p>A meticulously crafted dark theme inspired by the cosmic beauty of Andromeda, designed to enhance your coding experience
+        in IntelliJ-based IDEs.</p>
+        
+        <h3>Key Features:</h3>
+        <ul>
+            <li>🌌 Deep, space-inspired color palette optimized for long coding sessions</li>
+            <li>✨ Carefully selected contrasts for better readability</li>
+            <li>🎨 Beautiful syntax highlighting that makes your code pop</li>
+            <li>🔷 Polished UI elements with attention to detail</li>
+            <li>👀 Easy on the eyes during both day and night</li>
+        </ul>
+
+        <p>Perfect for developers who appreciate both aesthetics and functionality in their development environment.</p>
+    ]]></description>
 
     <!-- Short summary of new features and bugfixes in the latest plugin version.
          Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
     <change-notes><![CDATA[
-    Initial release of the theme.
-  ]]></change-notes>
+        <h3>Version 1.0.0</h3>
+        <ul>
+            <li>Initial release of Aaxyat Theme</li>
+            <li>Complete dark theme implementation</li>
+            <li>Optimized color palette for all major programming languages</li>
+            <li>Carefully crafted UI elements for a cohesive experience</li>
+        </ul>
+    ]]></change-notes>
 
     <!-- Product and plugin compatibility requirements.
          Read more: https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
-    <depends>com.intellij.modules.platform</depends>
+     <depends>com.intellij.modules.platform</depends>
+    <depends>com.intellij.modules.lang</depends>
+    <depends>com.intellij.modules.python</depends>  <!-- For PyCharm -->
+    <depends>com.intellij.modules.webstorm</depends>  <!-- For WebStorm -->
+    <depends>com.intellij.modules.database</depends>  <!-- For DataGrip -->
+
 
     <extensions defaultExtensionNs="com.intellij">
         <themeProvider id="aaxyat-theme" path="/theme/aaxyattheme.theme.json"/>

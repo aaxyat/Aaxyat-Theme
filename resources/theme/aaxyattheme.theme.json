@@ -1,11 +1,106 @@
 {
-  "name": "Aaxyat-theme",
-  "author": "YourCompany",
+  "name": "Aaxyat-Theme",
+  "author": "Ayush Bhattarai",
   "dark": true,
   "colors": {
-    "primaryRed": "#821010"
+    "primaryBackground": "#23262E",
+    "primaryForeground": "#D5CED9",
+    "cyan": "#00e8c6",
+    "orange": "#f39c12",
+    "yellow": "#FFE66D",
+    "pink": "#ff00aa",
+    "hotPink": "#f92672",
+    "purple": "#c74ded",
+    "blue": "#7cb7ff",
+    "red": "#ee5d43",
+    "green": "#96E072",
+    "commentGrey": "#A0A1A7cc"
   },
   "ui": {
-    "Button.background": "primaryRed"
+    "*": {
+      "background": "primaryBackground",
+      "foreground": "primaryForeground"
+    },
+    "Editor.background": "primaryBackground",
+    "Editor.foreground": "primaryForeground",
+    "Button.background": "purple",
+    "Button.foreground": "primaryForeground",
+    "ComboBox.background": "primaryBackground",
+    "ComboBox.foreground": "primaryForeground",
+    "Panel.background": "primaryBackground",
+    "Panel.foreground": "primaryForeground",
+    "TextArea.background": "primaryBackground",
+    "TextArea.foreground": "primaryForeground"
+  },
+  "attributes": {
+    "DEFAULT_KEYWORD": {
+      "foreground": "purple"
+    },
+    "DEFAULT_STRING": {
+      "foreground": "green"
+    },
+    "DEFAULT_NUMBER": {
+      "foreground": "orange"
+    },
+    "DEFAULT_CONSTANT": {
+      "foreground": "red"
+    },
+    "DEFAULT_FUNCTION_DECLARATION": {
+      "foreground": "yellow"
+    },
+    "DEFAULT_FUNCTION_CALL": {
+      "foreground": "yellow"
+    },
+    "DEFAULT_PARAMETER": {
+      "foreground": "cyan"
+    },
+    "DEFAULT_VARIABLE": {
+      "foreground": "cyan"
+    },
+    "DEFAULT_CLASS_NAME": {
+      "foreground": "red"
+    },
+    "DEFAULT_INTERFACE_NAME": {
+      "foreground": "red"
+    },
+    "DEFAULT_INSTANCE_METHOD": {
+      "foreground": "yellow"
+    },
+    "DEFAULT_INSTANCE_FIELD": {
+      "foreground": "cyan"
+    },
+    "DEFAULT_LABEL": {
+      "foreground": "hotPink"
+    },
+    "DEFAULT_METADATA": {
+      "foreground": "purple"
+    },
+    "DEFAULT_COMMA": {
+      "foreground": "primaryForeground"
+    },
+    "DEFAULT_DOT": {
+      "foreground": "primaryForeground"
+    },
+    "DEFAULT_SEMICOLON": {
+      "foreground": "primaryForeground"
+    },
+    "DEFAULT_LINE_COMMENT": {
+      "foreground": "commentGrey"
+    },
+    "DEFAULT_BLOCK_COMMENT": {
+      "foreground": "commentGrey"
+    },
+    "HTML_TAG": {
+      "foreground": "hotPink"
+    },
+    "HTML_TAG_NAME": {
+      "foreground": "hotPink"
+    },
+    "HTML_ATTRIBUTE_NAME": {
+      "foreground": "orange"
+    },
+    "HTML_ATTRIBUTE_VALUE": {
+      "foreground": "green"
+    }
   }
 }
